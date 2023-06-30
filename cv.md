@@ -22,15 +22,13 @@ My strong points are attention to detail, adaptability, interpersonal skills, fl
 
 ## Code Examples
 
-[String ends with?](https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d)
-
-_Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string)._
+- [String ends with? ](https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d)
+  _Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string)._
 
 `const solution = (str, ending) => str.endsWith(ending);`
 
-[Number of Decimal Digits](https://www.codewars.com/kata/58fa273ca6d84c158e000052)
-
-_Determine the total number of digits in the integer (n>=0) given as input to the function. For example, 9 is a single digit, 66 has 2 digits and 128685 has 6 digits. Be careful to avoid overflows/underflows.All inputs will be valid._
+- [Number of Decimal Digits. ](https://www.codewars.com/kata/58fa273ca6d84c158e000052)
+  _Determine the total number of digits in the integer (n>=0) given as input to the function. For example, 9 is a single digit, 66 has 2 digits and 128685 has 6 digits. Be careful to avoid overflows/underflows. All inputs will be valid._
 
 `const digits = (n) => n.toString().length;`
 
