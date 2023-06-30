@@ -34,7 +34,7 @@ My strong points are attention to detail, adaptability, interpersonal skills, fl
 
 ## My Projects
 
-[CV project for RS School](https://github.com/nadezhdanik/rsschool-cv)
+[CV project for RS School](https://nadezhdanik.github.io/rsschool-cv/cv)
 
 ## Education
 
