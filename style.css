@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+  font-family: "Bookman Old Style", serif;
+  border: 1px solid red;
+}
+
+.nav {
+  background-color: rgba(205, 92, 92, 0.5);
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 15px;
+  line-height: 250%;
+  font-size: 18px;
+  text-decoration: none;
+  color: #FCF5E5;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: rgb(205, 92, 92);
+}
