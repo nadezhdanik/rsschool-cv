@@ -10,13 +10,14 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   min-height: 100vh;
   font-family: "Bookman Old Style", serif;
   font-size: 18px;
 }
 
 .container {
+  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
 }
@@ -120,7 +121,7 @@ body {
   margin: 10px;
 }
 
-.footer {
+.footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
