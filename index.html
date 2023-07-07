@@ -23,10 +23,10 @@
       </div>
   </header>
   <main class="main">
-    <div class="container">
-      <section class="section profile" id="profile">
+    <div class="container main-container">
+      <section class="profile" id="profile">
         <div class="wrapper-profile">
-          <img class="image" src="image.png" alt="my photo">
+          <img class="image" src="assets/image.png" alt="my photo">
           <div class="profile-text">
             <h1 class="section-title name">NADEZHDA MEMELOVA</h1>
             <p class="text">JUNIOR FRONT-END DEVELOPER</p>
@@ -38,8 +38,7 @@
         </div>
       </section>
       <div class="line"></div>
-      <div class="wrapper-contacts">
-        <section class="section-contacts" id="contacts">
+        <section class="section contacts" id="contacts">
           <h2 class="section-title">CONTACTS</h2>
           <ul class="list">
             <li class="contacts-item"><span class="bold">e-mail: </span>nadezhdanik@gmail.com</li>
@@ -47,7 +46,7 @@
             <li class="contacts-item"><span class="bold">Discord: </span>nadezhdanik</li>
           </ul>
         </section>
-        <section class="section-skills" id="skills">
+        <section class="section skills" id="skills">
           <h2 class="section-title">SKILLS</h2>
           <ul class="list">
             <li class="list-item">HTML</li>
@@ -57,30 +56,24 @@
             <li class="list-item">VS Code</li>
           </ul>
         </section>
-      </div>
-      <div class="line narrow"></div>
-      <div class="wrapper-code">
         <section class="section" id="code">
           <h2 class="section-title">CODE EXAMPLES</h2>
           <ul class="list">
-            <li class="list-item">
+            <li class="list-item  code">
               <a class="link" href="https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d">String ends with?</a>
-              <code class="code">const solution = (str, ending) => str.endsWith(ending);</code>
+              <p><code class="code">const solution = (str, ending) => str.endsWith(ending);</code></p>
             </li>
-            <li class="list-item">
+            <li class="list-item  code">
               <a href="https://www.codewars.com/kata/58fa273ca6d84c158e000052" class="link">Number of decimal digits</a>
-              <code class="code">const digits = (n) => n.toString().length;</code>
+              <p><code class="code">const digits = (n) => n.toString().length;</code></p>
             </li>
           </ul>
         </section>
-        <section class="section" id="projects">
+        <section class="section projects" id="projects">
           <h2 class="section-title">PROJECTS</h2>
           <a href="https://nadezhdanik.github.io/rsschool-cv/cv" class="link">CV project for RS School</a>
         </section>
-      </div>
-      <div class="line narrow"></div>
-
-      <section class="section" id="education">
+      <section class="section education" id="education">
         <h2 class="section-title">Education</h2>
         <ul>
           <li>2009 - Belarusian State University, Faculty of International Relations</li>
@@ -100,7 +93,7 @@
           </li>
         </ul>
       </section>
-      <section class="section" id="languages">
+      <section class="section languages" id="languages">
         <h2 class="section-title">Languages</h2>
         <ul>
           <li>English (C1, lived in the USA for two month)</li>
@@ -114,6 +107,8 @@
     </div>
   </main>
   <footer class="footer">
+    <p>&copy 2023 <a class="nav-link" href="https://github.com/nadezhdanik">nadezhdanik</a></p>
+    <a href="https://rs.school/js/"><img class="logo" src="assets/rs_school_js.svg" alt="rs-school logo"></a>
   </footer>
 </body>
 </html>
