@@ -2,13 +2,15 @@
 
 ## Contacts
 
-- **e-mail:** nadezhdanik@gmail.com
+- **e-mail:** [nadezhdanik@gmail.com](mailto:nadezhdanik@gmail.com)
 - **GitHub:** [nadezhdanik](https://github.com/nadezhdanik)
-- **Discord:** nadezhdanik
+- **Discord:** [nadezhdanik](https://discordapp.com/users/1017360742476951554/)
 
 ## About myself
 
-My goal is to study hard and finish the JS/FE course, get full understanding of the topics covered, become a worthy specialist in the field. While I'm at it, I'd like to perfect my time-management skills for future work-related projects and studying. The priority is to meet all the deadlines for the tasks and deliver quality work during all stages.
+Hi! I am studying hard at RS School.
+
+My goal is to finish the JS/FE course, get full understanding of the topics covered, become a worthy specialist in the field. While I'm at it, I'd like to perfect my time-management skills for future work-related projects and studying. The priority is to meet all the deadlines for the tasks and deliver quality work during all stages.
 
 My strong points are attention to detail, adaptability, interpersonal skills, fluent English. I strive to learn something new everyday and further develop myself.
 
@@ -34,11 +36,15 @@ My strong points are attention to detail, adaptability, interpersonal skills, fl
 
 ## My Projects
 
-[CV project for RS School](https://nadezhdanik.github.io/rsschool-cv/cv)
+- [CV](https://nadezhdanik.github.io/rsschool-cv)
+- [Library](https://nadezhdanik.github.io/library)
+- [Audio-player](https://nadezhdanik.github.io/audio-player)
+- [Image gallery](https://nadezhdanik.github.io/image-galery)
+- [Tetris](https://nadezhdanik.github.io/random-game)
 
 ## Education
 
-- 2009 - Belarusian State University, Faculty of International Relations
+- 2004-2009 Belarusian State University, Faculty of International Relations
 - Codecademy
   - Learn the Command Line
   - Learn HTML
@@ -50,7 +56,7 @@ My strong points are attention to detail, adaptability, interpersonal skills, fl
 
 ## My Languages
 
-- English (C1, lived in the USA for two month)
+- English (C1, lived in the USA for two months)
 - Russian (native)
 - Belarusian (proficient)
 - Lithuanian (basic)
