@@ -121,6 +121,10 @@ body {
   margin: 10px;
 }
 
+.list-item {
+  margin-bottom: 5px;
+}
+
 .footer-container {
   display: flex;
   justify-content: space-between;
