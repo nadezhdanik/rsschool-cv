@@ -56,7 +56,7 @@ My strong points are attention to detail, adaptability, interpersonal skills, fl
 
 ## My Languages
 
-- English (C1, lived in the USA for two month)
+- English (C1, lived in the USA for two months)
 - Russian (native)
 - Belarusian (proficient)
 - Lithuanian (basic)
