@@ -2,17 +2,19 @@
 
 ## Contacts
 
+Vilnius, Lithuania
+
 - **e-mail:** [nadezhdanik@gmail.com](mailto:nadezhdanik@gmail.com)
 - **GitHub:** [nadezhdanik](https://github.com/nadezhdanik)
 - **Discord:** [nadezhdanik](https://discordapp.com/users/1017360742476951554/)
 
 ## About myself
 
-Hi! I am studying hard at RS School.
+Hello there!
 
-My goal is to finish the JS/FE course, get full understanding of the topics covered, become a worthy specialist in the field. While I'm at it, I'd like to perfect my time-management skills for future work-related projects and studying. The priority is to meet all the deadlines for the tasks and deliver quality work during all stages.
+Like you I am on the path of learning more about Web development.
 
-My strong points are attention to detail, adaptability, interpersonal skills, fluent English. I strive to learn something new everyday and further develop myself.
+I like to generate creative ideas and make them come true.
 
 ## Skills
 
@@ -20,7 +22,7 @@ My strong points are attention to detail, adaptability, interpersonal skills, fl
 - CSS
 - JavaScript
 - Git, GitHub
-- VS Code
+- Figma
 
 ## Code Examples
 
@@ -44,21 +46,14 @@ My strong points are attention to detail, adaptability, interpersonal skills, fl
 
 ## Education
 
-- 2004-2009 Belarusian State University, Faculty of International Relations
-- Codecademy
-  - Learn the Command Line
-  - Learn HTML
-  - Learn CSS
-  - Learn Git & GitHub
+- Belarusian State University, Faculty of International Relations
 - RS School
-  - JavaScript/Front-end LT/LV (stage 1, stage 2)
-  - JavaScript/Front-end. Stage 0
+  - JavaScript/Front-end LT/LV (stage 1, 2)
+  - JavaScript/Front-end RU (stage 0, 1)
 
 ## My Languages
 
-- English (C1, lived in the USA for two months)
+- English (C1)
 - Russian (native)
 - Belarusian (proficient)
 - Lithuanian (basic)
-- Italian (basic)
-- German (basic)

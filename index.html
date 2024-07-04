@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV nadezhdanik</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -28,20 +32,18 @@
     <div class="container main-container">
       <section class="profile" id="profile">
         <div class="wrapper-profile">
-          <img class="image" src="assets/image.png" alt="my photo" height="250">
+          <img class="image" src="assets/profile-pic.webp" alt="my photo" height="250">
           <div class="profile-text">
             <h1 class="section-title name">Nadezhda Memelova</h1>
-            <p class="text">Junior Front-end Developer</p>
+            🏠 Vilnius, Lithuania
           </div>
         </div>
         <div class="wrapper-about">
-          <p class="text">Hi! I am studying hard at RS School.</p>
-          <p class="text">My goal is to finish the JS/FE course, get full understanding of the topics covered, become a
-            worthy specialist in the field. While I’m at it, I’d like to perfect my time-management skills for future
-            work-related projects. The priority is to meet all the deadlines for the tasks and deliver quality work
-            during all stages.</p>
-          <p class="text">My strong points are attention to detail, adaptability, interpersonal skills, fluent English.
-            I strive to learn something new everyday and further develop myself.</p>
+          <p class="text">Hello there! 👋</p>
+          <br>
+          <p class="text">Like you I am on the path of learning more about Web development.</p>
+          <br>
+          <p class="text">I like to generate creative ideas and make them come true.</p>
         </div>
       </section>
       <div class="line"></div>
@@ -63,17 +65,17 @@
           <li class="list-item">CSS</li>
           <li class="list-item">JavaScript</li>
           <li class="list-item">Git, GitHub</li>
-          <li class="list-item">VS Code</li>
+          <li class="list-item">Figma</li>
         </ul>
       </section>
       <section class="section" id="code">
         <h2 class="section-title">CODE EXAMPLES</h2>
         <ul class="list">
-          <li class="list-item  code">
+          <li class="list-item">
             <a class="link" href="https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d">String ends with?</a>
-            <p><code class="code">const solution = (str, ending) =&gt; str.endsWith(ending);</code></p>
+            <p><code class="code">const solution = (str, end) =&gt; str.endsWith(end);</code></p>
           </li>
-          <li class="list-item  code">
+          <li class="list-item">
             <a href="https://www.codewars.com/kata/58fa273ca6d84c158e000052" class="link">Number of decimal digits</a>
             <p><code class="code">const digits = (n) =&gt; n.toString().length;</code></p>
           </li>
@@ -82,7 +84,7 @@
       <section class="section projects" id="projects">
         <h2 class="section-title">PROJECTS</h2>
         <ul class="list">
-          <li class="list-item"><a href="https://nadezhdanik.github.io/rsschool-cv/cv" class="link">CV</a></li>
+          <li class="list-item"><a href="https://nadezhdanik.github.io/rsschool-cv" class="link">CV</a></li>
           <li class="list-item"><a href="https://nadezhdanik.github.io/library" class="link">Library</a></li>
           <li class="list-item"><a href="https://nadezhdanik.github.io/audio-player" class="link">Audio-player</a></li>
           <li class="list-item"><a href="https://nadezhdanik.github.io/image-galery" class="link">Image gallery</a></li>
@@ -92,19 +94,11 @@
       <section class="section education" id="education">
         <h2 class="section-title">Education</h2>
         <ul>
-          <li class="list-item">2009 - Belarusian State University, Faculty of International Relations</li>
-          <li class="list-item"> Codecademy
-            <ul>
-              <li class="list-item">Learn the Command Line</li>
-              <li class="list-item">Learn HTML</li>
-              <li class="list-item">Learn CSS</li>
-              <li class="list-item">Learn Git &amp; GitHub</li>
-            </ul>
-          </li>
+          <li class="list-item">Belarusian State University, Faculty of International Relations</li>
           <li class="list-item"> RS School
             <ul>
-              <li class="list-item">JavaScript/Front-end LT/LV (stage 1, stage 2)</li>
-              <li class="list-item">JavaScript/Front-end. Stage 0</li>
+              <li class="list-item">JavaScript/Front-end LT/LV (stage 1, 2)</li>
+              <li class="list-item">JavaScript/Front-end RU (stage 0, 1)</li>
             </ul>
           </li>
         </ul>
@@ -112,20 +106,42 @@
       <section class="section languages" id="languages">
         <h2 class="section-title">Languages</h2>
         <ul>
-          <li>English (C1, lived in the USA for two months)</li>
+          <li>English (C1)</li>
           <li>Russian (native)</li>
           <li>Belarusian (proficient)</li>
           <li>Lithuanian (basic)</li>
-          <li>Italian (basic)</li>
-          <li>German (basic)</li>
         </ul>
       </section>
     </div>
   </main>
   <footer class="footer">
     <div class="container footer-container">
-      <p>&copy; 2023 <a class="nav-link" href="https://github.com/nadezhdanik">nadezhdanik</a></p>
-      <a href="https://rs.school/js/"><img class="logo" src="assets/rs_school_js.svg" alt="rs-school logo"></a>
+      <p>2024 <a class="nav-link github-link" href="https://github.com/nadezhdanik">
+          nadezhdanik
+          <svg class="github-logo" height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32"
+            data-view-component="true">
+            <path
+              d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+            </path>
+          </svg></a></p>
+      <a href="https://rs.school/courses/javascript-ru">
+        <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+          <g clip-path="url(#clip0_5701_38384)">
+            <circle cx="32" cy="32" r="32" fill="black" />
+            <path class="letter" fill-rule="evenodd" clip-rule="evenodd"
+              d="M13 21.5095V42.5L19.3067 42.4621V33.9474C20.0567 33.9474 20.7616 33.9775 21.4049 34.4267C21.8946 34.8785 22.2838 35.4335 22.546 36.054L25.9202 42.4621H33C31.5957 39.6675 30.4706 36.1327 28.0552 34.0104C27.5455 33.6749 26.9919 33.4158 26.411 33.241C27.1873 33.0779 27.9357 32.7973 28.6319 32.4084C30.3855 31.3375 31.3915 29.3808 31.3436 27.3374C31.3798 26.1328 31.0495 24.9466 30.3988 23.9441C28.9256 21.6883 25.9337 21.4213 23.4663 21.5095H13ZM21.9939 30.0116H19.3313V25.6975H22.1043C23.4807 25.5594 25.1814 26.1754 25.0859 27.8041C25.1499 29.5621 23.3647 29.9127 21.9939 30.0116Z"
+              fill="#FFB749" />
+            <path class="letter"
+              d="M39.4768 35.089L33 35.4666C33.1262 37.3671 34.0021 39.16 35.4636 40.5088C36.9117 41.8323 39.5076 42.4941 43.2515 42.4941C46.3564 42.5823 49.9058 41.8146 51.821 39.1569C52.5929 38.0934 53.0033 36.8427 52.9998 35.564C53.0217 33.1848 51.4339 31.2297 49.3044 30.3147C47.2632 29.4766 45.1198 28.8674 42.9204 28.5C42.1107 28.41 41.3327 28.1563 40.6423 27.757C39.9039 27.2597 40.078 26.2272 40.735 25.7596C42.6084 24.5207 45.6299 25.5545 45.8608 27.9032L52.2845 27.5621C52.1703 25.768 51.1844 24.0545 49.6356 22.9583C47.6987 21.8887 45.4532 21.3874 43.1986 21.5212C41.3493 21.4527 39.5037 21.7218 37.7682 22.3128C35.6082 23.1125 33.829 25.064 33.8344 27.4525C33.7931 28.9377 34.5158 30.4088 35.755 31.3621C37.6454 32.6238 39.8325 33.4582 42.139 33.798C43.3833 33.9637 44.5727 34.3795 45.6224 35.0159C46.5878 35.7309 46.5807 37.167 45.5959 37.8903C44.5078 38.6532 42.9034 38.7416 41.6818 38.2468C40.3717 37.716 39.6048 36.4784 39.4768 35.089Z"
+              fill="#FFB749" />
+          </g>
+          <defs>
+            <clipPath id="clip0_5701_38384">
+              <rect width="64" height="64" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </a>
     </div>
   </footer>
 </body>
