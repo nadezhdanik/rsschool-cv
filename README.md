@@ -1,3 +1,3 @@
-https://nadezhdanik.github.io/rsschool-cv/cv
+**Markdown version:** https://nadezhdanik.github.io/rsschool-cv/cv
 
-https://nadezhdanik.github.io/rsschool-cv/
+**Styled version:** https://nadezhdanik.github.io/rsschool-cv/
