@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 html {
@@ -18,41 +17,30 @@ body {
   background-image: url("assets/dots.jpg");
 }
 
-li {
-  list-style: none;
-}
-
 .container {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-header .container {
+.nav {
   background-color: rgb(115, 121, 186);
 }
 
 .nav-list {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   list-style: none;
-  padding: 20px;
-  gap: 40px;
-  row-gap: 10px;
-  min-height: 70px;
 }
 
 .nav-link {
-  padding: 10px;
+  padding: 20px;
+  line-height: 300%;
   text-decoration: none;
-  font-size: 26px;
   color: rgb(255, 255, 255);
   transition: 0.5s;
 }
@@ -78,7 +66,6 @@ header .container {
 }
 
 .image {
-  height: 250px;
   scale: 80%;
   border-radius: 10px;
 }
@@ -86,10 +73,6 @@ header .container {
 .wrapper-about {
   max-width: 40%;
   line-height: 1.25;
-
-    p {
-      margin-bottom: 10px;
-    }
 }
 
 .profile-text {
@@ -97,22 +80,21 @@ header .container {
 }
 
 .section-title {
-  text-align: center;
-  margin-bottom: 30px;
+  margin: 10px auto;
+  text-align: left;
   font-size: 110%;
   font-weight: bold;
   text-transform: uppercase;
   text-shadow: 1px 0 2px rgba(0, 0, 0, 0.5);
-  color: rgb(84, 90, 166);
+  color: rgb(115, 121, 186);
 }
 
 .name {
   font-size: 150%;
-  margin-bottom: 10px;
 }
 
 .line {
-  margin: 0 auto;
+  margin: 10px auto;
   width: 100%;
   height: 10px;
   border-radius: 3px;
@@ -124,10 +106,19 @@ header .container {
 }
 
 .section {
-  width: 100%;
-  text-align: center;
-  padding: 40px;
+  width: 50%;
+  padding: 20px 10px 40px 50px;
   border-bottom: 3px dashed rgb(115, 121, 186);
+}
+
+.education,
+.languages {
+  border-bottom: none;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .github-link {
@@ -148,7 +139,7 @@ header .container {
 
 .link {
   text-decoration: none;
-  color: rgb(67, 72, 136);
+  color: rgb(115, 121, 186);
   transition: 0.5s;
 }
 
@@ -156,128 +147,39 @@ header .container {
   color: rgb(0, 0, 0);
 }
 
+.code {
+  display: block;
+  margin: 10px 0;
+}
+
 .list-item {
   margin-bottom: 5px;
 }
 
-.logo {
-  height: 50px;
-  transition: transform 0.3s ease, filter 0.3s ease;
-  cursor: pointer;
-}
-
-.skills-list, .projects-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-.skills-item, .projects-item {
-  padding: 10px 20px;
-  background-color: rgb(206, 209, 247);
-  border-radius: 20px;
-  transition: 0.5s;
-}
-
-.code-section {
-  text-align: left;
-}
-
-pre {
-  display: flex;
-  justify-content: center;
-  white-space: pre-wrap;
-  word-break: break-word;
-
-  code {
-    background-color: rgb(217, 219, 247);
-    padding: 0 20px;
-    border-radius: 20px;
-  }
-}
-
-.education {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  li {
-    margin-left: 10px;
-    list-style: circle;
-  }
-}
-
 .footer-container {
-  flex-direction: row;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 40px;
   background-color: rgb(115, 121, 186);
 }
 
-@media (hover:hover) {
-  .logo:hover {
-    transform: scale(1.05);
-  }
-
-  .projects-item:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
+.logo {
+  height: 50px;
 }
 
-@media (max-width: 1040px) {
-  .nav-list {
-    gap: 20px;
-  }
-
-  .nav-link {
-    font-size: 24px;
-  }
-
-  .profile {
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px 0;
-  }
-
-  .name {
-    margin-bottom: 10px;
-  }
-
-  .profile-text {
-    margin-bottom: 20px;
-  }
-
-  .wrapper-about {
-    max-width: 100%;
-    text-align: center;
-    padding: 0 20px;
-  }
+.letter {
+  transition: 0.5s;
 }
 
-@media (max-width: 600px) {
-  .nav-link {
-    font-size: 20px;
-  }
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
 
-  .name {
-    font-size: 100%;
-  }
-
-  .section {
-    padding: 20px;
-  }
-
-  .image {
-    height: 200px;
-  }
-
-  .footer-container {
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px 20px;
-  }
+.link:hover .letter {
+  fill: rgb(255, 255, 255);
 }
